@@ -14,6 +14,11 @@ body {
 	margin: 0;
 }
 
+h1 {
+	font-size: 250%;
+
+}
+
 h2 {
 	font-size: 250%;
 	font-weight: 700;
@@ -190,24 +195,6 @@ aside {
 	text-align: center;
 }
 
-#google {
-	background-color: #A2B1C1;
-}
-
-#marketing {
-	background-color: #BEB9AD;
-}
-
-#customers {
-	background-color: #AADCD2;
-}
-
-#smiley {
-	background-color: #AADCD2;
-	padding: 0 0 1%;
-	clear: both;
-}
-
 /* Footer start */
 
 footer {
@@ -246,6 +233,43 @@ footer.second {
 footer.second p {
 	padding: 5px 0 9px 0;
 	text-align: center;
+}
+
+#link1 {
+	text-decoration: none;
+	font-size: 350%;
+	color: black;
+	padding: 60px 0 20px 0;
+	text-align: center;
+}
+
+#links {
+	background-color: #bdeffc;
+	padding: 40px 0px 40px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+#projektheader {
+	text-align: center;
+	padding: 15px 40px 40px 40px;
+	font-size: 430%;
+	color: black;
+}
+
+#button {
+	text-decoration: none;
+	background-color: #C3D7DF;
+	padding: 5px 20px 5px 20px;
+	font-size: 200%;
+	color: black;
+	transition-duration: 0.4s;
+	border: 1px solid black;
+}
+
+#button:hover {
+	background-color: #F5F5F5;
+	transition-duration: 0.4s;
 }
 
 /* Media query*/
@@ -313,6 +337,10 @@ footer.second p {
 
 	aside {
 		width: 100%;
+	}
+
+	h1 {
+		font-size: 100%;
 	}
 
 }
