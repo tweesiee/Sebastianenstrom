@@ -274,6 +274,16 @@ footer.second p {
 	transition-duration: 0.4s;
 }
 
+.php {
+	text-align: center;
+	font-size: 3vw;
+	font-size: 6vh;
+	padding: 400px 0 500px 0;
+	font-family: 'Alegreya sans' sans-serif;
+	color: black;
+	background-color: #C3D7DF;
+}
+
 /* Media query*/
 @media screen and (max-width: 768px) {
 	h2 {
